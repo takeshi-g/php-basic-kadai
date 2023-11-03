@@ -12,15 +12,15 @@
     <form action="confirm.php" method="POST">
         <div class="input-box">
             <label for="name">社員名</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="employee_name" id="name">
         </div>
         <div class="input-box">
-            <label for="age">年齢</label>
-            <input type="number" name="age" id="age">
+            <label for="employee_age">年齢</label>
+            <input type="number" name="employee_age" id="age">
         </div>
         <div class="input-box">
-            <label for="dep">所属部署</label>
-            <select name="dep" id="dep">
+            <label for="department">所属部署</label>
+            <select name="department" id="department">
                 <option value="開発部">開発部</option>
                 <option value="営業部">営業部</option>
                 <option value="人事部">人事部</option>
